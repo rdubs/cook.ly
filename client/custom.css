@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.img-bg {
+  background: url('https://s3-us-west-1.amazonaws.com/beerly/food-6.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 60%;
+  width: 100%;
+}
+
+.promo-wrapper {
+  display: flex;
+  bottom: 0;
+  height: 40%;
+  justify-content: space-between;
+}
+
+.promo-card {
+  height: 100%;
+  width: 33.2%;
+  margin: 4px 0px 0px 0px;
+}
+
+.sm-img-1 {
+  background: url('https://s3-us-west-1.amazonaws.com/beerly/food-4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sm-img-2 {
+  background: url('https://s3-us-west-1.amazonaws.com/beerly/food-5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sm-img-3 {
+  background: url('https://s3-us-west-1.amazonaws.com/beerly/food-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

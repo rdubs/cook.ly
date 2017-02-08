@@ -1,11 +1,7 @@
 import React, { PropTypes as T } from 'react';
-import Navbar from './nav.jsx';
-import Carousel from './carousel.jsx';
-import $ from 'jquery';
-
+import Navbar from '../Navbar/Navbar.jsx';
 
 class App extends React.Component {
-  
 
   render() {
     let children = null;
@@ -16,9 +12,8 @@ class App extends React.Component {
     }
 
     return (
-      <div >
+      <div>
         <Navbar />
-        
         {children}
       </div>
     );
