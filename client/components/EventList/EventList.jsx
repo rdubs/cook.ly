@@ -10,11 +10,8 @@ class EventList extends React.Component {
   constructor(props) {
     super(props);
 
-    this.events = props.events;
-
     this.state = {
       events: events
-      
     }
   }
 

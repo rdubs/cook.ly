@@ -2,12 +2,13 @@ import React from 'react';
 import { GoogleMapsApiKey } from "./config.js"
 import { ReactScriptLoaderMixin } from 'react-script-loader';
 import styles from "./Map.css";
+import { events } from '../../../../../db/dummyData.js';
  
  var Map = React.createClass({
   mixins: [ ReactScriptLoaderMixin ],
 
   getScriptURL: function() {
-    return '';//`https://maps.googleapis.com/maps/api/js?key=${GoogleMapsApiKey}`;
+    return `https://maps.googleapis.com/maps/api/js?key=${GoogleMapsApiKey}`;
   },
 
   getInitialState: function() {
@@ -28,15 +29,24 @@ import styles from "./Map.css";
   },
 
   initMap: function() {
-    var uluru = {lat: -25.363, lng: 131.044};
+    // var uluru = {lat: -25.363, lng: 131.044};
+    var locations = events.map((event) => {
+      return {
+        lat: event.latitude,
+        lng: event.longitude
+      };
+    });
+    var center = locations[0];
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 4,
-      center: uluru
+      center: center
     });
-    var marker = new google.maps.Marker({
-      position: uluru,
-      map: map
-    });
+    for (var i = 0; i < locations.length; i++) {
+      var marker = new google.maps.Marker({
+        position: locations[i],
+        map: map
+      });  
+    }
   },
 
   render: function() {

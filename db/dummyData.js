@@ -12,24 +12,28 @@ module.exports.events = [
 
     'id': 1,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
-    'price': 20,
+    'price': 10,
     'title': 'Ranit\'s Butt Food',
     'type': 'French',
     'reviews': {
       rating: 5,
       count: 283
-    }
+    },
+    'latitude': 37.7836966,
+    'longitude': -122.4089664
   },
   {
     'id': 2,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
-    'price': 20,
+    'price': 15,
     'title': 'Ranit\'s Butt Food',
     'type': 'French',
     'reviews': {
       rating: 5,
       count: 283
-    }
+    },
+    'latitude': 37.7836966,
+    'longitude': -122.49
   },
   {
     'id': 3,
@@ -40,7 +44,9 @@ module.exports.events = [
     'reviews': {
       rating: 5,
       count: 283
-    }
+    },
+    'latitude': 40.7836966,
+    'longitude': -122.4089664
   },
   {
     'id': 4,
@@ -51,73 +57,87 @@ module.exports.events = [
     'reviews': {
       rating: 5,
       count: 283
-    }
+    },
+    'latitude': 38.7836966,
+    'longitude': -123.4089664
   },
   {
     'id': 5,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
-    'price': 20,
+    'price': 18,
     'title': 'Ranit\'s Butt Food',
     'type': 'French',
     'reviews': {
       rating: 5,
       count: 283
-    }
+    },
+    'latitude': 39.7836966,
+    'longitude': -123.4089664
   },
   {
     'id': 6,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
-    'price': 20,
+    'price': 15,
     'title': 'Ranit\'s Butt Food',
     'type': 'French',
     'reviews': {
       rating: 5,
       count: 283
-    }
+    },
+    'latitude': 38.9,
+    'longitude': -123.9
   },
   {
     'id': 7,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
-    'price': 20,
+    'price': 9,
     'title': 'Ranit\'s Butt Food',
     'type': 'French',
     'reviews': {
       rating: 5,
       count: 283
-    }
+    },
+    'latitude': 37.7836966,
+    'longitude': -122.4089664
   },
   {
     'id': 8,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
-    'price': 20,
+    'price': 1,
     'title': 'Ranit\'s Butt Food',
     'type': 'French',
     'reviews': {
       rating: 5,
       count: 283
-    }
+    },
+    'latitude': 38.7836966,
+    'longitude': -123.4089664
   },
   {
     'id': 9,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
-    'price': 20,
+    'price': 22,
     'title': 'Ranit\'s Butt Food',
     'type': 'French',
     'reviews': {
       rating: 5,
       count: 283
-    }
+    },
+    'latitude': 38.1,
+    'longitude': -123.1
   },
   {
     'id': 10,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
-    'price': 20,
+    'price': 25,
     'title': 'Ranit\'s Butt Food',
     'type': 'French',
     'reviews': {
       rating: 5,
       count: 283
-    }
+    },
+    'latitude': 37.1,
+    'longitude': -122.9
   }
 
 ];
