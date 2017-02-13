@@ -13,7 +13,7 @@ module.exports.events = [
     'id': 1,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
     'price': 10,
-    'title': 'Ranit\'s Butt Food',
+    'title': 'Tater tots',
     'type': 'French',
     'reviews': {
       rating: 5,
@@ -26,7 +26,7 @@ module.exports.events = [
     'id': 2,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
     'price': 15,
-    'title': 'Ranit\'s Butt Food',
+    'title': 'Tater tots',
     'type': 'French',
     'reviews': {
       rating: 5,
@@ -39,7 +39,7 @@ module.exports.events = [
     'id': 3,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
     'price': 20,
-    'title': 'Ranit\'s Butt Food',
+    'title': 'Tater tots',
     'type': 'French',
     'reviews': {
       rating: 5,
@@ -52,7 +52,7 @@ module.exports.events = [
     'id': 4,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
     'price': 20,
-    'title': 'Ranit\'s Butt Food',
+    'title': 'Tater tots',
     'type': 'French',
     'reviews': {
       rating: 5,
@@ -65,7 +65,7 @@ module.exports.events = [
     'id': 5,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
     'price': 18,
-    'title': 'Ranit\'s Butt Food',
+    'title': 'Tater tots',
     'type': 'French',
     'reviews': {
       rating: 5,
@@ -78,7 +78,7 @@ module.exports.events = [
     'id': 6,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
     'price': 15,
-    'title': 'Ranit\'s Butt Food',
+    'title': 'Tater tots',
     'type': 'French',
     'reviews': {
       rating: 5,
@@ -91,7 +91,7 @@ module.exports.events = [
     'id': 7,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
     'price': 9,
-    'title': 'Ranit\'s Butt Food',
+    'title': 'Tater tots',
     'type': 'French',
     'reviews': {
       rating: 5,
@@ -104,7 +104,7 @@ module.exports.events = [
     'id': 8,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
     'price': 1,
-    'title': 'Ranit\'s Butt Food',
+    'title': 'Tater tots',
     'type': 'French',
     'reviews': {
       rating: 5,
@@ -117,7 +117,7 @@ module.exports.events = [
     'id': 9,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
     'price': 22,
-    'title': 'Ranit\'s Butt Food',
+    'title': 'Tater tots',
     'type': 'French',
     'reviews': {
       rating: 5,
@@ -130,7 +130,7 @@ module.exports.events = [
     'id': 10,
     'cover': 'https://s3-us-west-1.amazonaws.com/cook.ly/assets/7e3509fe_original.jpg',
     'price': 25,
-    'title': 'Ranit\'s Butt Food',
+    'title': 'Tater tots',
     'type': 'French',
     'reviews': {
       rating: 5,

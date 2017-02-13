@@ -455,71 +455,70 @@
   .detail-bookit-price-label {
     background-color: rgba(60,63,64,0.9);
     color: white;
-    padding: 13px 20px 5px;
-    z-index: 1001;
-    overflow-x: hidden;
-    border: 0;
-    height: 50px;
+    padding: 13px 20px 5px !important;
+    z-index: 1001 !important;
+    overflow-x: hidden !important;
+    border: 0 !important;
+    height: 50px !important;
   }
 
   .detail-bookit-price {
-    float: left;
-    font-weight: normal;
-    font-size: 1.4em;
+    float: left !important;
+    font-weight: normal !important;
+    font-size: 1.4em !important;
   }
 
   .detail-bookit-price-limit {
-    float: right;
-    font-size: 1em;
-    font-weight: 200;
-    padding: 4px;
+    float: right !important;
+    font-size: 1em !important;
+    font-weight: 200 !important;
+    padding: 4px !important;
   }
 
   .detail-bookit-price-row {
   }
 
   .detail-bookit-form-container {
-    border: 1px solid rgba(60,63,64,0.4);
+    border: 1px solid rgba(60,63,64,0.4) !important;
   }
 
   .detail-bookit-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /*align-items: center;*/
-    width: 90%;
-    margin: auto;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    /*align-items: center !important;*/
+    width: 90% !important;
+    margin: auto !important;
   }
 
   .detail-bookit-form-field-group {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 20px 0 5px 0;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    margin: 20px 0 5px 0 !important;
   }
 
   .detail-bookit-form-field {
-    display: flex;
-    flex-direction: column;
-    width: 48%;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 48% !important;
   }
 
   .detail-bookit-form-label {
-    font-weight: normal;
-    width: 100%;
+    font-weight: normal !important;
+    width: 100% !important;
   }
 
   .detail-bookit-form-input {
-    padding: 8px 8px;
-    border-radius: 2px;
-    border: 1px solid grey;
-    width: 100%;
+    padding: 8px 8px !important;
+    border-radius: 2px !important;
+    border: 1px solid grey !important;
   }
 
   .detail-bookit-form-field-guests {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
   }
 
   .detail-request-bookit-no-charge {
@@ -539,4 +538,13 @@
     flex: 1;
     margin: 0 10px;
   }
+}
+
+.main-image {
+  background-image: url("https://s3-us-west-1.amazonaws.com/beerly/food.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

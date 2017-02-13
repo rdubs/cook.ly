@@ -1,3 +1,9 @@
+a {
+  color: #444;
+  text-decoration: none;
+
+}
+
 .name {
   /*margin: 0 30px;*/
   padding: 0 30px;
@@ -44,6 +50,12 @@
   float: left;
 }
 
+.specialLink {
+  padding: 10px 20px;
+  float: left;
+  margin-top: -10px;
+}
+
 .navWrapper {
   width: 100%;
   border-bottom: 1px solid #dce0e0;
@@ -59,7 +71,7 @@
   flex-basis: auto;
   /*height: 100%*/;
   /*border-right: 1px solid #dce0e0;*/
-  
+
 }
 
 

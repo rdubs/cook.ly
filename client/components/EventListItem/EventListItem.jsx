@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './EventListItem.css';
+import Link from 'react-router/lib/Link';
 
 class EventListItem extends React.Component {
 
@@ -14,10 +15,10 @@ class EventListItem extends React.Component {
     return (
       <div className={styles.eventItemWrapper}>
         <div className={styles.eventItemDetailsWrapper}>
-         
-          
+
+
           <img src={this.event.cover} className={styles.cover}/>
-          
+
           <div className={styles.priceRatingContainer}>
 
           </div>
@@ -27,7 +28,7 @@ class EventListItem extends React.Component {
             <span className={styles.detailPrice}>
               <strong>${this.event.price}</strong>
             </span>
-            
+
             <span className={styles.detailReviewRating}>
               <strong>{this.event.reviews.rating}</strong> Stars
             </span>
@@ -37,7 +38,7 @@ class EventListItem extends React.Component {
             </span>
 
             <div className={styles.eventTitle}>
-              <strong>{this.event.title}</strong>
+              <Link to='/detail'><strong>{this.event.title}</strong></Link>
             </div>
 
             <span className={styles.detailType}>
@@ -45,7 +46,7 @@ class EventListItem extends React.Component {
             </span>
           </div>
 
-          
+
         </div>
       </div>
     )

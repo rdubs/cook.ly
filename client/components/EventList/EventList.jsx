@@ -19,7 +19,7 @@ class EventList extends React.Component {
     return (
       <div>
         <div className="fullContainer">
-          
+
 
           <Filter />
 
@@ -27,7 +27,7 @@ class EventList extends React.Component {
             <div className={styles.listContainer}>
               <Info />
               <div className={styles.listItemContainer}>
-                
+
 
                 <div className="flexWrapper">
                   {
@@ -37,15 +37,15 @@ class EventList extends React.Component {
                       );
                     })
                   }
-                </div>  
-              </div>  
+                </div>
+              </div>
             </div>
             <div className={styles.locationContainer}>
-              <Locations /> 
+              <Locations />
             </div>
-          </div>   
+          </div>
         </div>
-      </div>  
+      </div>
     );
   }
 }

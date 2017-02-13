@@ -3,7 +3,7 @@ import Link from 'react-router/lib/Link';
 import styles from './NavBar.css';
 
 class NavBar extends React.Component {
-  
+
 
   render() {
     return (
@@ -18,8 +18,8 @@ class NavBar extends React.Component {
             <i className="fa fa-search" aria-hidden="true"></i>
           </span>
           <input type="text" className={styles.search} placeholder="Search"/>
-            
-          
+
+
         </div>
         <div className={styles.links}>
           <div className={styles.link}>
@@ -27,25 +27,25 @@ class NavBar extends React.Component {
               Become a Host
             </span>
           </div>
-            
+
           <div className={styles.link}>
             <span>
-              Reservations
+              <Link to="/events" className={styles.specialLink}>Reservations</Link>
             </span>
           </div>
-        
+
           <div className={styles.link}>
             <span>
               Messages
             </span>
           </div>
-    
+
           <div className={styles.link}>
             <span>
               Help
             </span>
           </div>
-    
+
         </div>
       </nav>
 
