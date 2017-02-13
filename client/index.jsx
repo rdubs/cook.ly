@@ -13,14 +13,15 @@ import User from './components/User/user.jsx';
 import Search from './components/Search/Search.jsx';
 // import SearchBar from './components/Search/SearchBar.jsx';
 import EventList from './components/EventList/EventList.jsx';
+import Detail from './components/Detail/detail.jsx';
 
-// make sure to enter your Auth0 credentials below  
+// make sure to enter your Auth0 credentials below
 var auth; //= new AuthService(FILL ME UP);
 // validate authentication for private routes
 const requireAuth = (nextState, replace) => {
   // if (!auth.loggedIn()) {
   //   replace({ pathname: '/login' });
-  // } 
+  // }
 };
 
 
@@ -32,8 +33,8 @@ ReactDOM.render((
       <Route path="user" component={User} onEnter={requireAuth}/>
       <Route path="login" component={Login} />
       <Route path="search" component={Search} />
+      <Route path="detail" component={Detail} />
       <Route path="events" component={EventList} />
-
     </Route>
   </Router>
 ), document.getElementById('app'));
